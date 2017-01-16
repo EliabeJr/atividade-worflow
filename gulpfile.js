@@ -1,11 +1,13 @@
-var gulp 		= require("gulp");
-var sass 		= require("gulp-sass");
-var htmlmin 	= require("gulp-htmlmin");
-var cssmin 		= require('gulp-clean-css');
+const gulp 		= require("gulp");
+const sass 		= require("gulp-sass");
+const notify 	= require("gulp-notify");
+const htmlmin 	= require("gulp-htmlmin");
+const cssmin 	= require('gulp-clean-css');
 
 gulp.task("compile-css", function () {
 	return gulp.src("./source/scss/**/*.scss")
 			.pipe(sass())
+			.on("error", notify.onError({title:"erro ao compilar", message:"<%= error.message %>"}))
 			.pipe(gulp.dest("./source/css"))
 });
 
