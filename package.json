@@ -1,0 +1,19 @@
+{
+  "name": "ativ-mod-workflow",
+  "version": "1.0.0",
+  "description": "atividade do modulo de workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Pegou? Pegou!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliabeJr/atividade-worflow.git"
+  },
+  "author": "Eliabe Junior",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EliabeJr/atividade-worflow/issues"
+  },
+  "homepage": "https://github.com/EliabeJr/atividade-worflow#readme"
+}
