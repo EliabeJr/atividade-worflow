@@ -1,0 +1,22 @@
+html {
+  border-top: 3px solid #222; }
+
+body {
+  background: #f9f9f9;
+  font-family: sans-serif;
+  text-align: center; }
+
+footer {
+  font-size: 0.5em;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  text-align: center; }
+
+.container {
+  width: 60%;
+  color: #222;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 3em; }

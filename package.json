@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/EliabeJr/atividade-worflow/issues"
   },
-  "homepage": "https://github.com/EliabeJr/atividade-worflow#readme"
+  "homepage": "https://github.com/EliabeJr/atividade-worflow#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-watch": "^4.3.11"
+  }
 }

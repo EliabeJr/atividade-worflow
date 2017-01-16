@@ -1,0 +1,14 @@
+@import "base";
+@import "layout";
+
+.container {
+	width: $container-width;
+	color: #222;
+	margin: 0 auto;
+}
+
+// teste
+
+h1 {
+	font-size: 3em;
+}
