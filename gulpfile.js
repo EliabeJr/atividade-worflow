@@ -25,8 +25,7 @@ gulp.task('min-html', function() {
 
 gulp.task('watch', function() {
     gulp.watch('./source/scss/**/*.scss', ['compile-css']);
-    gulp.watch('./source/css/**/*.css', ['min-css']);
     gulp.watch('./source/*.html', ['min-html']);
 });
 
-gulp.task('default',['watch']);
+gulp.task('default',['compile-css','min-css','watch']);
